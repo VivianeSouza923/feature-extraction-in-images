@@ -1,9 +1,11 @@
-#Utilizando os extratores LBP, HU e GLCM, extraia as
-#características das imagens disponibilizadas no ClassRoom (num-
-#ber1.rar) e crie um arquivo contendo linha por linha as caracterís-
-#ticas extraídas a fim de montar um dataset. Não precisa incluir o
-#Rótulo
+'''
+Utilizando os extratores LBP, HU e GLCM, extraia as
+características das imagens disponibilizadas no ClassRoom (num-
+ber1.rar) e crie um arquivo contendo linha por linha as caracterís-
+ticas extraídas a fim de montar um dataset. Não precisa incluir o
+Rótulo
 
+'''
 from skimage.feature import greycomatrix, greycoprops
 from skimage.feature import local_binary_pattern
 
