@@ -1,5 +1,5 @@
 #Plote uma figura com o código da cadeia de todos os números 1‘s.
-#imports do que eu vou precisar
+
 import cv2
 import numpy as np
 import os
